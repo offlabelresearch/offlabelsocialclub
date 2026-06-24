@@ -18,12 +18,12 @@ const sans = Inter({
 export const metadata: Metadata = {
   title: "Off Label Social Club | The Right People Know Where To Look",
   description:
-    "A private members club for research, data, and independent thinking. Off Label Social Club is for people who know where to look.",
+    "A private members club for research, curiosity, and independent thinking. Off Label Social Club is for people who know where to look.",
   applicationName: "Off Label Social Club",
   openGraph: {
     title: "Off Label Social Club | The Right People Know Where To Look",
     description:
-      "A private members club for research, data, and independent thinking.",
+      "A private members club for research, curiosity, and independent thinking.",
     siteName: "Off Label Social Club",
     type: "website",
   },
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     card: "summary",
     title: "Off Label Social Club | The Right People Know Where To Look",
     description:
-      "A private members club for research, data, and independent thinking.",
+      "A private members club for research, curiosity, and independent thinking.",
   },
 };
 

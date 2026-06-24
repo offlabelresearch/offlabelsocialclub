@@ -33,7 +33,7 @@ export default function Home() {
           <div className={styles.content}>
             <p className={styles.kicker}>OFF LABEL SOCIAL CLUB</p>
             <h1 id="club-title">The Right People Know Where To Look.</h1>
-            <p className={styles.statement}>Research. Data. Independent Thinking.</p>
+            <p className={styles.statement}>Research. Curiosity. Independent Thinking.</p>
           </div>
 
           <a
@@ -52,7 +52,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className={styles.editorial} aria-label="Club principles">
+      <section className={styles.editorial} aria-label="Private index">
         <div className={styles.wordmarkWrap} aria-hidden="true">
           <Image
             src="/branding/ol_slogan.png"
@@ -63,12 +63,28 @@ export default function Home() {
         </div>
 
         <div className={styles.editorialInner}>
-          <p className={styles.eyebrow}>Private Index</p>
-          <h2>A quieter room for sharper conclusions.</h2>
-          <div className={styles.columns}>
-            <p>For people who read past the headline.</p>
-            <p>For people who prefer primary data to consensus language.</p>
-            <p>For people who understand that access is not the same as noise.</p>
+          <div className={styles.indexCopy}>
+            <p className={styles.eyebrow}>Private Index</p>
+            <h2>
+              <span>Not everything</span>
+              <span>valuable is advertised.</span>
+            </h2>
+            <div className={styles.indexLines}>
+              <p>For people who read beyond the headline.</p>
+              <p>For people who ask one more question.</p>
+              <p>For people who know where to look.</p>
+            </div>
+          </div>
+
+          <div className={styles.indexVisual}>
+            <Image
+              className={styles.footerImage}
+              src="/branding/ol-footer.png"
+              alt="Open notebook with Off Label Social Club notes, card, and pen"
+              width={1536}
+              height={1024}
+              sizes="(max-width: 900px) 100vw, 50vw"
+            />
           </div>
         </div>
       </section>
