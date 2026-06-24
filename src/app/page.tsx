@@ -24,7 +24,7 @@ export default function Home() {
           <Image
             className={styles.seal}
             src="/branding/ol_emblem.png"
-            alt="Off Label Social Club"
+            alt="Off Label Social Club emblem"
             width={116}
             height={116}
             priority

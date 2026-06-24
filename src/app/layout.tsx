@@ -16,8 +16,23 @@ const sans = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Off Label Social Club",
-  description: "Research. Data. Independent Thinking.",
+  title: "Off Label Social Club | The Right People Know Where To Look",
+  description:
+    "A private members club for research, data, and independent thinking. Off Label Social Club is for people who know where to look.",
+  applicationName: "Off Label Social Club",
+  openGraph: {
+    title: "Off Label Social Club | The Right People Know Where To Look",
+    description:
+      "A private members club for research, data, and independent thinking.",
+    siteName: "Off Label Social Club",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "Off Label Social Club | The Right People Know Where To Look",
+    description:
+      "A private members club for research, data, and independent thinking.",
+  },
 };
 
 export default function RootLayout({
